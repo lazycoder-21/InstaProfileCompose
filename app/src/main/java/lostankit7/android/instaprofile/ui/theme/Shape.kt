@@ -1,4 +1,4 @@
-package lostankit7.android.instprofile.ui.theme
+package lostankit7.android.instaprofile.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

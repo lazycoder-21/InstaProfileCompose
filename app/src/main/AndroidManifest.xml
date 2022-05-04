@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="lostankit7.android.instprofile">
+    package="lostankit7.android.instaprofile">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InstProfile">
         <activity
-            android:name=".MainActivity"
+            android:name="lostankit7.android.instaprofile.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.InstProfile.NoActionBar">

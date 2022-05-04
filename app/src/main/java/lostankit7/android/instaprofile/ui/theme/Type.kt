@@ -1,4 +1,4 @@
-package lostankit7.android.instprofile.ui.theme
+package lostankit7.android.instaprofile.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

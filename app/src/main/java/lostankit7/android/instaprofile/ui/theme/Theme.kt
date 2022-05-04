@@ -1,4 +1,4 @@
-package lostankit7.android.instprofile.ui.theme
+package lostankit7.android.instaprofile.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -28,7 +28,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun InstProfileTheme(
+fun InstaProfileTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable() () -> Unit
 ) {

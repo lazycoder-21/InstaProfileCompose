@@ -1,4 +1,4 @@
-package lostankit7.android.instprofile
+package lostankit7.android.instaprofile
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

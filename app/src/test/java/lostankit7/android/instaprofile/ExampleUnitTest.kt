@@ -1,4 +1,4 @@
-package lostankit7.android.instprofile
+package lostankit7.android.instaprofile
 
 import org.junit.Test
 
