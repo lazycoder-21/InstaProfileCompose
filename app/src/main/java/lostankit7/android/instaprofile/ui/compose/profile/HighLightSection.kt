@@ -9,16 +9,17 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import lostankit7.android.instaprofile.ui.compose.common.RoundImage
-import lostankit7.android.instaprofile.ui.compose.entity.StoryHighlight
+import lostankit7.android.instaprofile.ui.compose.entity.ImageWithText
 
 @Composable
 fun HighLightSection(
     modifier: Modifier = Modifier,
-    highlights: List<StoryHighlight>,
+    highlights: List<ImageWithText>,
 ) {
     LazyRow(modifier = modifier) {
         items(highlights.size) {
@@ -28,7 +29,7 @@ fun HighLightSection(
                 modifier = Modifier.padding(15.dp)
             ) {
                 RoundImage(
-                    image = highlights[it].image,
+                    image = painterResource(highlights[it].image),
                     modifier = Modifier.size(65.dp)
                 )
                 Text(
